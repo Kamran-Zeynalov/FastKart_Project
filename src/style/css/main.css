@@ -1,100 +1,4 @@
 @charset "UTF-8";
-footer {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-}
-footer .footerInfo .image-text-icon .image {
-  margin: 40px 0 30px 0;
-}
-footer .footerInfo .image-text-icon .image img {
-  width: 150px;
-}
-footer .footerInfo .image-text-icon .text p {
-  width: 95%;
-  line-height: 26px;
-  color: #bfbfbf;
-}
-footer .footerInfo .image-text-icon .icons {
-  display: flex;
-}
-footer .footerInfo .image-text-icon .icons a {
-  color: white;
-}
-footer .footerInfo .image-text-icon .icons a .icc {
-  margin: 5px;
-  padding: 10px 14px;
-  border-radius: 50%;
-  background-color: #1e2e2e;
-  transition: 0.3s;
-}
-footer .footerInfo .image-text-icon .icons a .icc:hover {
-  background-color: #4a5568;
-}
-footer .footerInfo .title-list {
-  margin: 40px 0;
-}
-footer .footerInfo .title-list .title {
-  margin-bottom: 20px;
-}
-footer .footerInfo .title-list .list ul {
-  list-style: none;
-}
-footer .footerInfo .title-list .list ul li {
-  color: #bfbfbf;
-  line-height: 40px;
-  width: 100%;
-  margin-left: -35px;
-  transition: 0.6s;
-  padding: 0;
-  position: relative;
-}
-footer .footerInfo .title-list .list ul li::before {
-  content: "";
-  color: #bfbfbf;
-  margin-right: 10px;
-}
-footer .footerInfo .title-list .list ul li a {
-  color: #bfbfbf;
-  text-decoration: none;
-}
-footer .footerInfo .title-list .list ul li:hover {
-  margin-left: -25px;
-}
-footer .footerInfo .title-list .list ul li:hover::before {
-  content: "●";
-}
-footer .footerInfo .title-list .list ul .myList {
-  line-height: 50px;
-}
-footer .footerInfo .title-list .list ul .myList .bi {
-  margin: 0 10px 0 0;
-}
-footer .footerInfo .title-list .list ul .myList:hover {
-  margin-left: -35px;
-}
-footer .footerInfo .title-list .list ul .myList:hover::before {
-  content: "";
-}
-footer .footerInfo .title-list .list ul .firstList {
-  line-height: 22px;
-}
-footer .end {
-  border-top: 1px solid gray;
-  margin-top: 70px;
-  padding: 40px 0 32px 0;
-}
-footer .end .copyRight p {
-  color: #bfbfbf;
-}
-footer .end .cards {
-  text-align: right;
-}
-footer .end .cards .cardImages img {
-  margin: 0 5px;
-  width: 40px;
-}
-
 header .container-fluid {
   background-color: #239698;
   padding: 11px;
@@ -235,9 +139,297 @@ header .container .icons .bag .count_bag small {
   font-weight: 400;
 }
 
+.spe {
+  padding: 30px;
+  position: relative;
+}
+.spe .container-fluid-lg {
+  padding: 0 calc(12px + 148 * (100vw - 320px) / 1600);
+  position: absolute;
+  top: 20%;
+  overflow: hidden;
+}
+.spe .container-fluid-lg h6 {
+  font-size: calc(14px + 2 * (100vw - 320px) / 1600);
+  margin-bottom: calc(7px + 5 * (100vw - 320px) / 1600);
+  color: #239698;
+  overflow: hidden;
+}
+.spe .container-fluid-lg .heding-2 {
+  font-size: calc(22px + 28 * (100vw - 320px) / 1600);
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 13px;
+  margin-top: 7px;
+  width: 100%;
+  overflow: hidden;
+}
+.spe .container-fluid-lg .content-2 {
+  font-size: calc(16px + 20 * (100vw - 320px) / 1600);
+  margin-bottom: 10px;
+  font-weight: 500;
+  overflow: hidden;
+}
+.spe .container-fluid-lg h5 {
+  font-size: calc(15px + 3 * (100vw - 320px) / 1600);
+  letter-spacing: 1px;
+  color: #239698;
+  overflow: hidden;
+}
+.spe .container-fluid-lg .special_btn {
+  background-color: #239698;
+  padding: calc(8px + 3 * (100vw - 320px) / 1600) calc(16px + 8 * (100vw - 320px) / 1600);
+  font-size: calc(14px + 2 * (100vw - 320px) / 1600);
+  color: white;
+  border: none;
+}
+
+#banners {
+  padding: 40px;
+}
+#banners .adverts {
+  position: relative;
+}
+#banners .adverts .banner-detail {
+  position: absolute;
+  top: 53px;
+  left: 24px;
+}
+#banners .adverts .banner-detail h5 {
+  overflow: hidden;
+  font-size: calc(15px + 3 * (100vw - 320px) / 1600);
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem !important;
+}
+#banners .adverts .banner-detail h4 {
+  overflow: hidden;
+  font-size: calc(16px + 6 * (100vw - 320px) / 1600);
+  line-height: 1.4;
+  font-weight: 700;
+}
+#banners .adverts .banner-detail .shop {
+  color: #239698;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-size: 17px;
+  margin-right: auto !important;
+  text-align: left;
+  border: none;
+  font-weight: 700;
+}
+#banners .adverts .banner-detail .shop svg {
+  margin-left: 6px;
+}
+
+.caption {
+  margin: 12px 6px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.image-info {
+  width: 100%;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  transition: 0.3s;
+  height: 460px;
+}
+.image-info .image {
+  overflow: hidden;
+}
+.image-info .image img {
+  width: 100%;
+  overflow: hidden;
+  transition: 0.3s;
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+.image-info .info {
+  padding: 12px;
+}
+.image-info .info .likeBtn {
+  margin: 12px;
+  padding: 5px 14px;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #e9f4f4;
+  color: #70babb;
+  transition: 0.3s;
+}
+.image-info .info a {
+  color: black;
+  text-decoration: none;
+}
+.image-info .info a h4 {
+  padding: 0 12px;
+  font-size: 21px;
+}
+.image-info .info .date {
+  padding: 7px 0 0 12px;
+}
+.image-info:hover .image img {
+  transform: scale(1.1);
+}
+.image-info:hover .info .likeBtn {
+  background-color: #239698;
+  color: white;
+}
+
+.contDelivery {
+  overflow: hidden;
+}
+.contDelivery .delivery {
+  margin-bottom: 30px;
+}
+.contDelivery .delivery .services {
+  display: flex;
+  border-radius: 5px;
+  margin: 0 5px;
+  background-color: #f2f2f2;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 8px;
+  height: 140px;
+  transition: 0.5s;
+}
+.contDelivery .delivery .services .icon {
+  padding: 45px 10px 0 10px;
+  z-index: 1;
+  color: #239698;
+}
+.contDelivery .delivery .services .service-detail {
+  padding: 40px 5px 22px 2px;
+  overflow: hidden;
+}
+.contDelivery .delivery .services .service-detail h4 {
+  font-size: 20px;
+  color: #222222;
+}
+.contDelivery .delivery .services .service-detail h6 {
+  color: #5a7e8c;
+  font-size: 14px;
+}
+.contDelivery .delivery .services:hover {
+  background-color: #239698;
+}
+.contDelivery .delivery .services:hover .icon {
+  color: white;
+}
+.contDelivery .delivery .services:hover .service-detail h4 {
+  color: white;
+}
+.contDelivery .delivery .services:hover .service-detail h6 {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+footer .footerInfo .image-text-icon .image {
+  margin: 40px 0 30px 0;
+}
+footer .footerInfo .image-text-icon .image img {
+  width: 150px;
+}
+footer .footerInfo .image-text-icon .text p {
+  width: 95%;
+  line-height: 26px;
+  color: #bfbfbf;
+}
+footer .footerInfo .image-text-icon .icons {
+  display: flex;
+}
+footer .footerInfo .image-text-icon .icons a {
+  color: white;
+}
+footer .footerInfo .image-text-icon .icons a .icc {
+  margin: 5px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  background-color: #1e2e2e;
+  transition: 0.3s;
+}
+footer .footerInfo .image-text-icon .icons a .icc:hover {
+  background-color: #4a5568;
+}
+footer .footerInfo .title-list {
+  margin: 40px 0;
+}
+footer .footerInfo .title-list .title {
+  margin-bottom: 20px;
+}
+footer .footerInfo .title-list .list ul {
+  list-style: none;
+}
+footer .footerInfo .title-list .list ul li {
+  color: #bfbfbf;
+  line-height: 40px;
+  width: 100%;
+  margin-left: -35px;
+  transition: 0.6s;
+  padding: 0;
+  position: relative;
+}
+footer .footerInfo .title-list .list ul li::before {
+  content: "";
+  color: #bfbfbf;
+  margin-right: 10px;
+}
+footer .footerInfo .title-list .list ul li a {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+footer .footerInfo .title-list .list ul li:hover {
+  margin-left: -25px;
+}
+footer .footerInfo .title-list .list ul li:hover::before {
+  content: "●";
+}
+footer .footerInfo .title-list .list ul .myList {
+  line-height: 50px;
+}
+footer .footerInfo .title-list .list ul .myList .bi {
+  margin: 0 10px 0 0;
+}
+footer .footerInfo .title-list .list ul .myList:hover {
+  margin-left: -35px;
+}
+footer .footerInfo .title-list .list ul .myList:hover::before {
+  content: "";
+}
+footer .footerInfo .title-list .list ul .firstList {
+  line-height: 22px;
+}
+footer .end {
+  border-top: 1px solid gray;
+  margin-top: 70px;
+  padding: 40px 0 32px 0;
+}
+footer .end .copyRight p {
+  color: #bfbfbf;
+}
+footer .end .cards {
+  text-align: right;
+}
+footer .end .cards .cardImages img {
+  margin: 0 5px;
+  width: 40px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

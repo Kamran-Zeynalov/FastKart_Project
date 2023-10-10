@@ -1,9 +1,17 @@
-@import './../../components/Footer/Footer';
 @import './../../components/Header/Header';
+@import './../../components/Specialy/Specialy';
+@import './../../components/Banners/Banners';
+@import './../../components/Blog/Blog';
+@import './../../components/Delivery/Delivery';
+@import './../../components/Footer/Footer';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+    overflow: hidden;
 }
